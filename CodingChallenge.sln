@@ -7,6 +7,8 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "codingchallenge.client", "c
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingChallenge.Server", "CodingChallenge.Server\CodingChallenge.Server.csproj", "{1F7A0628-2C24-449B-98A7-A8B3E1AD21C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenge.Tests", "CodingChallenge.Tests\CodingChallenge.Tests.csproj", "{912F0CFF-87DA-45C4-A162-770C1AB5B045}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{1F7A0628-2C24-449B-98A7-A8B3E1AD21C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F7A0628-2C24-449B-98A7-A8B3E1AD21C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F7A0628-2C24-449B-98A7-A8B3E1AD21C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{912F0CFF-87DA-45C4-A162-770C1AB5B045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{912F0CFF-87DA-45C4-A162-770C1AB5B045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{912F0CFF-87DA-45C4-A162-770C1AB5B045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{912F0CFF-87DA-45C4-A162-770C1AB5B045}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

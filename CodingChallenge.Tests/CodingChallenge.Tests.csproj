@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CodingChallenge.Server\CodingChallenge.Server.csproj" />
+  </ItemGroup>
+
 </Project>
