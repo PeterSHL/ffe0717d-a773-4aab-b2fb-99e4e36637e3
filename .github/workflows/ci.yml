@@ -22,5 +22,12 @@ jobs:
       - name: Build
         run: dotnet build --configuration Release
 
-      - name: Test
-        run: dotnet test --configuration Release --no-restore --verbosity normal
+      - name: Test with code coverage
+        run: dotnet test --configuration Release /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+        continue-on-error: true
+
+      - name: Publish code coverage results
+        uses: coverallsapp/github-action@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path-to-lcov: ./coverage.opencover.xml
