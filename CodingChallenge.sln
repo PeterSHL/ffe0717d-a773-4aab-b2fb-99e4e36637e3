@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34004.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "codingchallenge.client", "codingchallenge.client\codingchallenge.client.esproj", "{F4B59271-E21F-43FD-8E36-946E6403EEC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingChallenge.Server", "CodingChallenge.Server\CodingChallenge.Server.csproj", "{1F7A0628-2C24-449B-98A7-A8B3E1AD21C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4B59271-E21F-43FD-8E36-946E6403EEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B59271-E21F-43FD-8E36-946E6403EEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B59271-E21F-43FD-8E36-946E6403EEC5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F4B59271-E21F-43FD-8E36-946E6403EEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B59271-E21F-43FD-8E36-946E6403EEC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B59271-E21F-43FD-8E36-946E6403EEC5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1F7A0628-2C24-449B-98A7-A8B3E1AD21C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F7A0628-2C24-449B-98A7-A8B3E1AD21C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F7A0628-2C24-449B-98A7-A8B3E1AD21C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F7A0628-2C24-449B-98A7-A8B3E1AD21C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D9F6606-644F-4825-9559-240E3F6AC6D5}
+	EndGlobalSection
+EndGlobal
