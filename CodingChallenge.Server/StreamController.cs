@@ -6,9 +6,10 @@ namespace CodingChallenge.Server
     [ApiController]
     public class StreamController : ControllerBase
     {
-        [HttpPost]
-        public void Post([FromBody] string value)
+        [HttpPost("FindSequence")]
+        public OkObjectResult FindSequence([FromBody] FindSequenceRequest request)
         {
+            return Ok(StreamService.FindLongestIncreasingSequence(request.stream));
         }
     }
 }

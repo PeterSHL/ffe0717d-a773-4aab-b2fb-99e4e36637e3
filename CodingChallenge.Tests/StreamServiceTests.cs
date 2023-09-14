@@ -16,6 +16,9 @@ namespace CodingChallenge.Tests
         [InlineData(TestData.Input9, TestData.Output9)]
         [InlineData(TestData.Input10, TestData.Output10)]
         [InlineData(TestData.Input11, TestData.Output11)]
+        [InlineData(TestData.Input12, TestData.Output12)]
+        [InlineData(TestData.Input13, TestData.Output13)]
+        [InlineData(TestData.Input14, TestData.Output14)]
         public void FindLongestIncreasingSequence_GivenStreamOfNumbers_ReturnsCorrectSequence(string input, string expectedOutput)
         {
             var result = StreamService.FindLongestIncreasingSequence(input);
