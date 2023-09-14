@@ -1,3 +1,6 @@
+[![Code Coverage](https://codecov.io/gh/PeterSHL/ffe0717d-a773-4aab-b2fb-99e4e36637e3/graph/badge.svg?token=1F6B06F2BH)](https://codecov.io/gh/PeterSHL/ffe0717d-a773-4aab-b2fb-99e4e36637e3)
+![CI Status](https://github.com/github/docs/actions/workflows/ci.yml/badge.svg)
+
 # Code Challenge
 
 ## Objective
