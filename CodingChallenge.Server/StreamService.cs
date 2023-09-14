@@ -29,6 +29,7 @@ public class StreamService
 
         for (var i = 1; i < numbers.Count; i++)
         {   
+            // Check if current number is larger than the previous number  
             if (numbers[i] > numbers[i - 1])
             {
                 currentSequence.Add(numbers[i]);
